@@ -1,0 +1,47 @@
+{
+  "best-products":[
+    {
+    "id": 1,
+    "kode":"K-01",
+    "nama" : "Ahmad",
+    "harga": "5.199",
+    "is_ready": true,
+    "gambar": "person.png"
+    },
+    {
+    "id": 2,
+    "kode":"K-02",
+    "nama" : "Joko",
+    "harga": "16.299",
+    "is_ready": true,
+    "gambar": "person.png"
+    },
+    {
+    "id": 3,
+    "kode": "K-03",
+    "nama": "Susi",
+    "harga": 8.499,
+    "is_ready": true,
+    "gambar": "person.png"
+    },
+    {
+    "id": 4,
+    "kode": "K-03",
+    "nama": "Adi",
+    "harga": 8.499,
+    "is_ready": true,
+    "gambar": "person.png"
+      }],
+    "products":[
+      {
+        "id": 1,
+        "kode": "K-01",
+        "nama": "Susi",
+        "harga": 12.899,
+        "is_ready": true,
+        "gambar": "person.png"
+      }
+      ],
+      "keranjang":[],
+      "pesanan":[]
+}

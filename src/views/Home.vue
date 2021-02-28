@@ -7,8 +7,8 @@
       <div class="row mt-4">
         <div class="col">
           <h2>
-            Best
-            <strong>Foods</strong>
+            Daftar
+            <strong>Pesanan</strong>
           </h2>
         </div>
         <div class="col">

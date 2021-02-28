@@ -47,7 +47,7 @@
             </div>
 
             <button type="submit" class="btn btn-success" @click="pemesanan">
-              <b-icon-cart></b-icon-cart>Pesan
+              <b-icon-cart></b-icon-cart>Konfirmasi
             </button>
           </form>
         </div>

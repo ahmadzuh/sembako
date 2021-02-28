@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="light">
       <div class="container">
-        <b-navbar-brand href="#">Kulineran</b-navbar-brand>
+        <b-navbar-brand href="#">Belanjo Yuk Admin</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -12,22 +12,12 @@
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/foods">Foods</router-link>
+              <router-link class="nav-link" to="/foods">Daftar Pesanan</router-link>
             </li>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/keranjang">
-                Keranjang
-                <b-icon-bag></b-icon-bag>
-                <span
-                  class="badge badge-success ml-2"
-                >{{ updateKeranjang ? updateKeranjang.length : jumlah_pesanans.length }}</span>
-              </router-link>
-            </li>
-          </b-navbar-nav>
+          
         </b-collapse>
       </div>
     </b-navbar>
@@ -52,7 +42,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://localhost:3000/keranjangs")
+      .get("http://localhost:3000/keranjang")
       .then((response) => this.setJumlah(response.data))
       .catch((error) => console.log(error));
   },

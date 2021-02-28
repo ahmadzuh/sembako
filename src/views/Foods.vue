@@ -6,7 +6,7 @@
         <div class="col">
           <h2>
             Daftar
-            <strong>Makanan</strong>
+            <strong>Pesanan</strong>
           </h2>
         </div>
       </div>
@@ -19,7 +19,7 @@
               v-model="search"
               type="text"
               class="form-control"
-              placeholder="Cari Makanan Kesukaan Anda .."
+              placeholder="Cari pesanan.."
               aria-label="Cari"
               aria-describedby="basic-addon1"
               @keyup="searchFood"

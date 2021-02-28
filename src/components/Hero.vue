@@ -7,13 +7,10 @@
           <div class="d-flex h-100">
             <div class="justify-content-center align-self-center">
               <h2>
-                <strong>Delicious Food Menu,</strong>
-                <br />in Your Gadget
+                <strong>List daftar,</strong>
+                <h2> Pesanan Customer</h2>
+
               </h2>
-              <p>Ayo segera pilih dan pesan makanan favorit Anda</p>
-              <router-link class="btn btn-lg btn-success" to="/foods">
-                <b-icon-arrow-right></b-icon-arrow-right>Pesan
-              </router-link>
             </div>
           </div>
         </div>
